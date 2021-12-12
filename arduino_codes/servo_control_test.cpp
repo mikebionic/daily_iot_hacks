@@ -3,7 +3,6 @@ Servo servo_motor;
 int servo_pin = 4;
 
 void setup() {
-  Serial.begin(9600);
   servo_motor.attach(servo_pin);
   servo_motor.write(10);
 }
